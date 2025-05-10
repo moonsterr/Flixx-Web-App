@@ -472,6 +472,7 @@ async function getFetchData(endpoint) {
     );
 
     if (!Fetch.ok) {
+      hideSpinner();
       throw new Error('something went wrong');
     }
     const response = await Fetch.json();
@@ -637,7 +638,6 @@ function init() {
       displayPopularMovies();
       displaySlider();
       displayRecSlider();
-      console.log('hello');
 
       break;
     case '/shows':
