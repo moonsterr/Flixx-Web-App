@@ -637,9 +637,13 @@ function init() {
       displayPopularMovies();
       displaySlider();
       displayRecSlider();
+      console.log('hello');
+
       break;
+    case '/shows':
     case '/shows.html':
       console.log('Show page');
+      console.log('hello');
       displayPopularShows();
       break;
     case '/movie-details.html':
