@@ -138,7 +138,7 @@ async function displayMovieDetails() {
               </ul>
               <a href=${
                 movie.homepage
-              } target="_blank" class="btn">Visit Movie Homepage</a>
+              } target="_blank" class="btn">Visit Movie Original Page</a>
             </div>
           </div>
           <div class="details-bottom">
@@ -230,7 +230,7 @@ async function displayShowDetails() {
               </ul>
               <a href=${
                 show.homepage
-              } target="_blank" class="btn">Visit show Homepage</a>
+              } target="_blank" class="btn">Visit Show Orginal Page</a>
             </div>
           </div>
           <div class="details-bottom">
